@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl-PL">
     <head>
-        <title>WOT</title>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style.css" />
+        <title>WOT RWD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
     </head>
     <body>
+        <header class="page-header nav-opened">
+            <a href="#" title="Go to homepage">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1104.586 1511.305" class="page-logo"><g><path d="M980.83 320.625L880.432 218.694 772.637 112.111H331.949L226.946 218.694 126.548 320.625h321.275v920.68l105.875 104.697 105.855-104.697v-920.68h.02z"/><path d="M876.758 420.251H775.692v410.793L670.098 935.38l74.357 72.191 75.098 72.943 161.602-159.801.037-500.462zM331.726 831.044V420.251H126.201v500.462l161.664 159.801 75.099-72.943 74.312-72.191z"/><path d="M316.11 55.984L56.036 315.941V946.07l496.271 487.021 496.251-487.021V315.96L788.496 55.984H316.11zM8.304 284.584L284.914 8.24 293.096 0h518.379l8.18 8.24 276.629 276.344 8.303 8.316v676.439l-8.406 8.229-524.299 514.538-19.574 19.197-19.6-19.197L8.429 977.571 0 969.341V292.905l8.304-8.321z"/></g></svg>
+            </a>
+            <nav class="page-nav">
+                <ul class="navigation-menu">
+                    <!-- TODO titles -->
+                    <li><a href="#" title="Features ........">Features</a></li> 
+                    <li><a href="#" title="Pricing .........">Pricing</a></li>
+                    <li><a href="#" title="About me ........">About me</a></li>
+                    <li><a href="#" title="Sign up .........">Sign up</a></li>
+                </ul>
+                <button type="button" title="Open menu" class="nav-toggle-button">
+                    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg class="hamburger-icon" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg class="close-icon" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <article class="article">
+                <header class="article-header">
+                    <h2 class="article-title">My favorite tank</h2>
+                    <p>About amx - light tank in game Wot</p>
+                    <div>
+                        <img src="./images/author-tumb.jpg" alt="Jakub Banasiak article author" />
+                        <p>Jakub Banasiak</p>
+                        <time datetime="2019-09-07" pubdate>07.09.2019</time>
+                    </div>
+                </header>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <aside class="article-sidebar">
+                    <figure class="article-picture">
+                        <img src="https://images.freeimages.com/images/large-previews/e12/corn-field-1-1368931.jpg" alt="pickture of corn field" />
+                        <figcaption>
+                            Picture description
+                        </figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat est velit egestas dui. Aliquet eget sit amet tellus cras. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Interdum varius sit amet mattis vulputate enim. Quisque egestas diam in arcu cursus. Varius vel pharetra vel turpis. Volutpat odio facilisis mauris sit amet massa vitae tortor. Elementum nibh tellus molestie nunc non blandit. Habitasse platea dictumst quisque sagittis purus sit. Non blandit massa enim nec dui. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Blandit volutpat maecenas volutpat blandit aliquam. Enim diam vulputate ut pharetra. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Lacinia quis vel eros donec ac odio tempor. Turpis massa sed elementum tempus egestas sed sed risus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat est velit egestas dui. Aliquet eget sit amet tellus cras. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Interdum varius sit amet mattis vulputate enim. Quisque egestas diam in arcu cursus. Varius vel pharetra vel turpis. Volutpat odio facilisis mauris sit amet massa vitae tortor. Elementum nibh tellus molestie nunc non blandit. Habitasse platea dictumst quisque sagittis purus sit. Non blandit massa enim nec dui. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Blandit volutpat maecenas volutpat blandit aliquam. Enim diam vulputate ut pharetra. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Lacinia quis vel eros donec ac odio tempor. Turpis massa sed elementum tempus egestas sed sed risus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat est velit egestas dui. Aliquet eget sit amet tellus cras. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Interdum varius sit amet mattis vulputate enim. Quisque egestas diam in arcu cursus. Varius vel pharetra vel turpis. Volutpat odio facilisis mauris sit amet massa vitae tortor. Elementum nibh tellus molestie nunc non blandit. Habitasse platea dictumst quisque sagittis purus sit. Non blandit massa enim nec dui. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Blandit volutpat maecenas volutpat blandit aliquam. Enim diam vulputate ut pharetra. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Lacinia quis vel eros donec ac odio tempor. Turpis massa sed elementum tempus egestas sed sed risus.</p>
+                </aside>
+                <h3>
+                    Nagłówek podgłówek h3
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat est velit egestas dui. Aliquet eget sit amet tellus cras. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Interdum varius sit amet mattis vulputate enim. Quisque egestas diam in arcu cursus. Varius vel pharetra vel turpis. Volutpat odio facilisis mauris sit amet massa vitae tortor. Elementum nibh tellus molestie nunc non blandit. Habitasse platea dictumst quisque sagittis purus sit. Non blandit massa enim nec dui. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Blandit volutpat maecenas volutpat blandit aliquam. Enim diam vulputate ut pharetra. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Lacinia quis vel eros donec ac odio tempor. Turpis massa sed elementum tempus egestas sed sed risus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat est velit egestas dui. Aliquet eget sit amet tellus cras. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Interdum varius sit amet mattis vulputate enim. Quisque egestas diam in arcu cursus. Varius vel pharetra vel turpis. Volutpat odio facilisis mauris sit amet massa vitae tortor. Elementum nibh tellus molestie nunc non blandit. Habitasse platea dictumst quisque sagittis purus sit. Non blandit massa enim nec dui. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Blandit volutpat maecenas volutpat blandit aliquam. Enim diam vulputate ut pharetra. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Lacinia quis vel eros donec ac odio tempor. Turpis massa sed elementum tempus egestas sed sed risus.</p>
+            </article>
+        </main>
+        <footer>
+            <ul>
+                <!-- TODO titles -->
+                <li><a href="#" title="Features ........">Features</a></li> 
+                <li><a href="#" title="Pricing .........">Pricing</a></li>
+                <li><a href="#" title="About me ........">About me</a></li>
+                <li><a href="#" title="Sign up .........">Sign up</a></li>
+            </ul>
+            <img src="#" />
+            <p>2019</p>
+        </footer>
 
-        hello world!
-        
-        <script src="main.js"></script>
+        <!-- <script src="./js/main.js"></script> -->
     </body>
 </html>
