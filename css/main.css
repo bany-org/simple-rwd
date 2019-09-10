@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans";
+    color: #37474F;
+    font-size: 1.6rem;
+}
+
+.page-header {
+    position: absolute;
+    width: 100%;
+
+    padding: 20px;
+    padding-top: 20px;
+
+    box-sizing: border-box;
+}
+
+.page-nav .nav-toggle-button {
+    border: 0;
+    background: 0;
+
+    position: absolute;
+    right: 20px;
+    top: 30px;
+
+    width: 40px;
+    height: 40px;
+
+    fill: #FFFFFF;
+}
+
+.page-nav .navigation-menu {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    /* display: none; */
+}
+
+.page-header.nav-opened {
+    background: #FFFFFF;
+}
+
+.page-header.nav-opened .page-logo {
+    fill: #000000;
+}
+
+.page-header.nav-opened .page-nav .nav-toggle-button {
+    fill: #000000;
+}
+
+.page-header.nav-opened .nav-toggle-button .hamburger-icon {
+    display: none;
+}
+
+.page-header.nav-opened .nav-toggle-button .close-icon {
+    display: inline-block;
+}
+
+.page-nav .navigation-menu li {
+    border-bottom: 1px solid #F5F7F8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.page-nav .navigation-menu li a {
+    color :#000000;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.page-nav .nav-toggle-button .close-icon {
+    display: none;
+}
+
+.page-logo {
+    fill: #FFFFFF;
+    width: 50px;
+}
+
+.article .article-header {
+    background: url("../images/wot.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+    padding-top: 120px;
+}
+
+.article-title {
+    margin: 0;
+}
+
+.article-sidebar .article-picture img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
