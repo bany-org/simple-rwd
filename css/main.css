@@ -35,6 +35,10 @@ body {
     fill: #FFFFFF;
 }
 
+.page-nav .nav-toggle-button:focus {
+    outline: none;
+}
+
 .page-nav .navigation-menu {
     list-style: none;
     padding: 0; 
@@ -44,11 +48,16 @@ body {
 
     text-align: center;
 
-    /* display: none; */
+    display: none;
 }
 
 .page-header.nav-opened {
     background: #FFFFFF;
+    box-shadow: -1px 9px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.page-header.nav-opened .navigation-menu {
+    display: block;
 }
 
 .page-header.nav-opened .page-logo {
@@ -71,6 +80,20 @@ body {
     border-bottom: 1px solid #F5F7F8;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.page-nav .navigation-menu li.sign-up {
+    border: 0;
+    margin-top: 30px;  
+}
+
+.page-nav .navigation-menu li.sign-up a {
+    border: solid 2px #00BAA5;
+    border-radius: 25px;
+
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .page-nav .navigation-menu li a {
